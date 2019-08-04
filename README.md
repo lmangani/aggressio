@@ -1,4 +1,4 @@
-<img src=https://user-images.githubusercontent.com/1423657/62418259-6a20d700-b665-11e9-999c-ae665060b24b.png width=250>
+<img src=https://user-images.githubusercontent.com/1423657/62418287-ca177d80-b665-11e9-9dcb-3e4afcf741ab.png width=250>
 
 A Response Aggregating Hash-Ring HTTP Proxy
 
