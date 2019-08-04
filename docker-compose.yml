@@ -1,0 +1,38 @@
+version: '2.2'
+services:
+  hashflux:
+    container_name: aggressio
+    image: qxip/aggressio:master
+    depends_on:
+      - "influxdb1"
+      - "influxdb2"
+    expose:
+      - "8086"
+    ports:
+     - "8086:8086"
+    environment:
+     - SERVERS=http://influxdb2:8086,http://influxdb1:8086
+     - PORT=8086
+
+  # Define an InfluxDB service
+  influxdb1:
+    image: influxdb:1.7-alpine
+    expose:
+      - "8086"
+
+  # Define an InfluxDB service
+  influxdb2:
+    image: influxdb:1.7-alpine
+    expose:
+      - "8086"
+
+  chronograf:
+    image: chronograf:1.7-alpine
+    environment:
+      INFLUXDB_URL: http://aggressio:8086
+    expose:
+      - "8888"
+    ports:
+     - "8888:8888"
+    links:
+      - hashflux
