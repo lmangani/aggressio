@@ -22,7 +22,7 @@ sudo docker run \
 
 ### Diagram
 
-![image](https://user-images.githubusercontent.com/1423657/62422351-7a5ea380-b6b1-11e9-9dda-6859aaed98d0.png)
+<img src=https://user-images.githubusercontent.com/1423657/62422351-7a5ea380-b6b1-11e9-9dda-6859aaed98d0.png width=300>
 
 ### Status
 
