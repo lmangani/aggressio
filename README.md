@@ -3,7 +3,7 @@
 Response Aggregating Hash-Ring HTTP Proxy for InfluxDB & Friends
 
 ### Motivation
-Most InfluxDB "clustering" proxies actually *"shard"* and distribute or clone data and queries between nodes. Aggress-IO expects each server to have its own data writers, and just distributes queries across, aggregating multiple results into a unique response. 
+Most InfluxDB "clustering" proxies actually *"shard"* and distribute or clone data and queries between nodes. Aggress-IO expects each server to have its own data, and just distributes queries across aggregating results into a unique response. 
 
 ### Usage
 ```
