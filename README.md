@@ -7,11 +7,19 @@ Most InfluxDB "clustering" proxies actually *"shard"* and distribute or clone da
 
 ### Usage
 ##### npm
+To start manually, populate the ENV variables as per example and run:
 ```
 SERVERS=http://influxdb1:8086,http://influxdb2:8086 PORT=9999 npm start
 ```
 
+##### pm2
+To start using PM2, edit the `aggressio.config` file with the ENV variables and run:
+```
+pm2 start aggressio.config
+```
+
 ##### docker
+To start using Docker, populate the ENV variables as per example and run:
 ```
 sudo docker run \ 
 -e SERVERS=http://influxdb1:8086,http://infludb2:8086 \
