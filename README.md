@@ -13,9 +13,9 @@ SERVERS=http://influxdb1:8086,http://influxdb2:8086 PORT=9999 npm start
 ```
 
 ##### pm2
-To start using PM2, edit the `aggressio.config` file with the ENV variables and run:
+To manage the service using PM2, edit the `aggressio.config.js` file with the ENV variables and run:
 ```
-pm2 start aggressio.config
+pm2 [start|restart|stop|delete] aggressio.config.js
 ```
 
 ##### docker
