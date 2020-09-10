@@ -1,6 +1,6 @@
 {
   "name": "aggressio",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Aggregating Hash-Ring HTTP Proxy",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
   "devDependencies": {
     "assert": "^1.4.1",
     "istanbul": "^0.4.5",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "mocha": "^3.1.0"
   },
   "dependencies": {
