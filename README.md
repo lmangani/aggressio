@@ -3,13 +3,21 @@
 Response Aggregating Hash-Ring HTTP Proxy for InfluxDB & Friends
 
 ### Motivation
-Most InfluxDB "clustering" proxies actually *"shard"* and distribute or clone data and queries between nodes. Aggress-IO expects each server to have its own data, and just distributes queries across aggregating results into a unique response. 
+Aggress-IO distributes queries across multiple API targets, aggregating results into a unique response.<br>
+It has been tested with `InfluxDB`, `Clickhouse` and `Loki`.
+
+#### Options
+Aggress-IO can use either of the following modes to accomodate the preferred response aggregation method:
+* `concat`
+* `combine`
+* `replace`
+
 
 ### Usage
 ##### npm
 To start manually, populate the ENV variables as per example and run:
 ```
-SERVERS=http://influxdb1:8086,http://influxdb2:8086 PORT=9999 npm start
+SERVERS=http://influxdb1:8086,http://influxdb2:8086 PORT=9999 MODE=concat npm start
 ```
 
 ##### pm2
