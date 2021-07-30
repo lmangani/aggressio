@@ -14,6 +14,14 @@ Aggress-IO can use either of the following modes to accomodate the preferred res
 
 
 ### Usage
+#### global
+```
+npm install -g aggressio
+```
+```
+SERVERS=http://loki1:3100,http://loki2:3100 PORT=3100 MODE=concat aggressio
+```
+
 ##### npm
 To start manually, populate the ENV variables as per example and run:
 ```
