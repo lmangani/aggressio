@@ -5,8 +5,9 @@ module.exports = {
         script: "index.js",
         watch: true,
         env: {
-            "PORT": 9999,
+            "PORT": 3100,
             "DEBUG": false,
+            "MODE": "concat",
             "SERVERS": "http://localhost:8086"
         }
       }
