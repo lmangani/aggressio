@@ -34,7 +34,7 @@ sudo docker run \
 -e PORT=8089 \
 -e MODE=concat \
 -p 8089
---rm  hepic/aggressio:latest
+--rm  qxip/aggressio:latest
 ```
 
 ### Diagram
