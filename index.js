@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const aggressIO = require('./lib/multiflux');
 
 var options = {

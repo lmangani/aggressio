@@ -1,15 +1,18 @@
 {
   "name": "aggressio",
-  "version": "1.0.4",
-  "description": "Aggregating Hash-Ring HTTP Proxy",
+  "version": "1.0.5",
+  "description": "Response Aggregating Multi-Target HTTP Proxy",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha ./test/*.js --"
   },
+  "bin": {
+    "aggressio": "./index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lmangani/aggress.git"
+    "url": "git+https://github.com/lmangani/aggressio.git"
   },
   "keywords": [
     "aggregation",
