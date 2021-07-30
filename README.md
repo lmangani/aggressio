@@ -24,6 +24,7 @@ To start using Docker, populate the ENV variables as per example and run:
 sudo docker run \ 
 -e SERVERS=http://influxdb1:8086,http://infludb2:8086 \
 -e PORT=8089 \
+-e MODE=concat \
 -p 8089
 --rm  hepic/aggressio:latest
 ```
