@@ -34,18 +34,13 @@ sudo docker run \
 -e PORT=8089 \
 -e MODE=concat \
 -p 8089
---rm  hepic/aggressio:latest
+--rm  qxip/aggressio:latest
 ```
 
 ### Diagram
 
 <img src=https://user-images.githubusercontent.com/1423657/62422429-f60d2000-b6b2-11e9-9a61-23ccbef4875c.png width=800>
 
-### Status
 
-* Experimental
 
-### ToDo
-
-* De-Duplicate `databases` and `retention` results in responses
 
