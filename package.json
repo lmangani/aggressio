@@ -1,6 +1,6 @@
 {
   "name": "aggressio",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "Response Aggregating Multi-Target HTTP Proxy",
   "main": "index.js",
   "scripts": {
@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "hashring": "^3.2.0",
-    "json-merger": "^1.1.6",
+    "json-merger": "git+https://github.com/lmangani/json-merger.git",
     "node-fetch": "^3.1.1",
     "theodore": "^1.2.0",
     "turbo-http": "^0.3.0"
