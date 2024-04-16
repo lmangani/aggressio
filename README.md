@@ -1,5 +1,7 @@
 <img src=https://user-images.githubusercontent.com/1423657/62418287-ca177d80-b665-11e9-9dcb-3e4afcf741ab.png width=250>
 
+[![CodeQL](https://github.com/lmangani/aggressio/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/lmangani/aggressio/actions/workflows/codeql-analysis.yml)
+
 Response Aggregating HTTP Proxy for Timeseries APIs & Friends
 
 ### Motivation
